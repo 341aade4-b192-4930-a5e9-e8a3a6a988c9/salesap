@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56d4b07c-eeec-4a20-91d9-11e38aa47733" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/models/task.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/models/user.rb" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
-    </list>
+    <list default="true" id="56d4b07c-eeec-4a20-91d9-11e38aa47733" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/public/system/" />
@@ -67,8 +60,8 @@
       <file leaf-file-name="Gemfile" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="50" column="3" lean-forward="true" selection-start-line="50" selection-start-column="3" selection-end-line="50" selection-end-column="3" />
+            <state relative-caret-position="242">
+              <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -381,12 +374,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1516048348283</updated>
-      <workItem from="1516048349436" duration="1495000" />
+      <workItem from="1516048349436" duration="1517000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1495000" />
+    <option name="totallyTimeSpent" value="1517000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="947" extended-state="6" />
@@ -498,8 +491,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="50" column="3" lean-forward="true" selection-start-line="50" selection-start-column="3" selection-end-line="50" selection-end-column="3" />
+        <state relative-caret-position="242">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding />
         </state>
       </provider>
