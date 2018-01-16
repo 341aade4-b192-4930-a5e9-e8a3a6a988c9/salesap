@@ -3,7 +3,7 @@ class ImmediateTaskService
     t =
         User.find_by_sql(%Q(
           SELECT DISTINCT ON (user_id)
-            users.*, task.id as task_id
+            users.*, tasks.id as task_id
           FROM users
           LEFT JOIN
             (
