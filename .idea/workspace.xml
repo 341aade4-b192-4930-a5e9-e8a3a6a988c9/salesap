@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56d4b07c-eeec-4a20-91d9-11e38aa47733" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/services/immediate_task_service.rb" afterPath="$PROJECT_DIR$/app/services/immediate_task_service.rb" />
       <change beforePath="$PROJECT_DIR$/spec/services/immediate_task_service_spec.rb" afterPath="$PROJECT_DIR$/spec/services/immediate_task_service_spec.rb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
@@ -74,8 +72,8 @@
       <file leaf-file-name="immediate_task_service_spec.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/services/immediate_task_service_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+            <state relative-caret-position="685">
+              <caret line="147" column="0" lean-forward="false" selection-start-line="147" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -156,8 +154,8 @@
         <option value="$PROJECT_DIR$/spec/factories/time_factory.rb" />
         <option value="$PROJECT_DIR$/spec/factories/task_factory.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/spec/services/immediate_task_service_spec.rb" />
         <option value="$PROJECT_DIR$/app/services/immediate_task_service.rb" />
+        <option value="$PROJECT_DIR$/spec/services/immediate_task_service_spec.rb" />
       </list>
     </option>
   </component>
@@ -385,12 +383,12 @@
       <option name="presentableId" value="Default" />
       <updated>1516048348283</updated>
       <workItem from="1516048349436" duration="13847000" />
-      <workItem from="1516121870587" duration="2255000" />
+      <workItem from="1516121870587" duration="2337000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16102000" />
+    <option name="totallyTimeSpent" value="16184000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="947" extended-state="0" />
@@ -655,8 +653,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/services/immediate_task_service_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+        <state relative-caret-position="685">
+          <caret line="147" column="0" lean-forward="false" selection-start-line="147" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
           <folding />
         </state>
       </provider>
