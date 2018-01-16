@@ -1,7 +1,7 @@
 class ImmediateTaskService
   def self.call
       User.find_by_sql [%Q(
-        SELECT DISTINCT ON (user_id)
+        SELECT DISTINCT ON (user.id)
           users.*,
           tasks.id as task_id
         FROM users
