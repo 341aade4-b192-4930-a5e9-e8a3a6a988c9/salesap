@@ -1,7 +1,7 @@
 class ImmediateTaskService
   def self.call
       User.find_by_sql [%Q(
-        SELECT DISTINCT ON (id)
+        SELECT DISTINCT ON (users.id)
           users.*,
           tasks.id as task_id
         FROM users
@@ -37,7 +37,7 @@ class ImmediateTaskService
         ON
           users.id = tasks.user_id
         ORDER BY
-          id ASC,
+          users.id ASC,
           sort_type ASC,
           sort_value ASC
       ), { now: Time.zone.now }]
