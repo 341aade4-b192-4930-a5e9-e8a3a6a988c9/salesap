@@ -1,7 +1,10 @@
 class ImmediateTaskService
   def self.call
     t =
-        User.joins(%Q(
+        User.find_by_sql(%Q(
+          SELECT DISTINCT ON (user_id)
+            *
+          FROM users
           LEFT JOIN
             (
               SELECT
@@ -30,12 +33,16 @@ class ImmediateTaskService
                 tasks
               WHERE
                 tasks.completed_at IS NULL AND tasks.deadline IS NULL
-            ) as marked_tasks
+            ) as tasks
           ON
-            users.id = ordered_tasks.user_id
-        )).all
+            users.id = tasks.user_id
+          ORDER BY
+            user_id ASC,
+            sort_type ASC,
+            sort_value ASC
+        ))
 
-    t.to_sql
+    t.to_s
 
     t
 
